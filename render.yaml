@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: chess-game-servers
-    runtime: node
-    buildCommand: npm install
-    startCommand: npm start
-    healthCheckPath: /health
-    autoDeploy: true
